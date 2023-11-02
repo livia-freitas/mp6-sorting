@@ -1,0 +1,58 @@
+public class SortingTests {
+
+  /**
+  * Checks if the empty list is handled gracefully
+  */
+  @Test
+  public emptyListTest {
+
+  }
+
+  /**
+  * Checks if the singleton list is handled gracefully
+  */
+  @Test
+  public singletonTest {
+
+  }
+
+  /**
+  * Checks if the sort works for an already sorted list
+  */
+  @Test
+  public alredySortedTest {
+
+  }
+
+  /**
+  * Checks if a half-sorted list is sorted properly
+  */
+  @Test
+  public halfSortedTest {
+
+  }
+
+  /**
+  * Checks if a list made of one repeated element is sorted properly
+  */
+  @Test
+  public repeatedElementTest {
+
+  } 
+
+  /**
+  * Checks if negative numbers are sorted properly
+  */
+  @Test
+  public negativeNumbersTest {
+
+  }
+
+  /**
+   * Checks if zero is handled properly
+   */
+  @Test
+  public zeroTest {
+    
+  }
+}

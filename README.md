@@ -7,3 +7,4 @@ An implementation of insertion sort, merge sort, quicksort, and an orignal sort.
 **Sources**
 https://www.vogella.com/tutorials/JUnit/article.html
 https://www.geeksforgeeks.org/interfaces-in-java/
+https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html

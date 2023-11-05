@@ -16,3 +16,5 @@ https://www.vogella.com/tutorials/JUnit/article.html
 https://www.geeksforgeeks.org/interfaces-in-java/
 
 https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html
+
+https://www.geeksforgeeks.org/python-program-for-insertion-sort/ (I adapted this to Java)

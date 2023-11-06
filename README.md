@@ -22,3 +22,7 @@ https://www.geeksforgeeks.org/python-program-for-insertion-sort/ (I adapted the 
 https://stackoverflow.com/questions/15189949/making-a-generic-comparator-class
 
 https://www.programiz.com/dsa/merge-sort (I adapted the Python code into java)
+
+https://www.baeldung.com/java-initialize-array
+
+https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html

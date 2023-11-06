@@ -26,3 +26,5 @@ https://www.programiz.com/dsa/merge-sort (I adapted the Python code into java)
 https://www.baeldung.com/java-initialize-array
 
 https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html
+
+https://www.youtube.com/watch?v=_W0yUJlscRA (for FreitasLiviaSort)

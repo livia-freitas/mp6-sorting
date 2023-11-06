@@ -1,8 +1,13 @@
 package mp6;
 import java.util.Comparator;
 
+/**
+ * Author: Livia Stein Freitas.
+ * Implements insertion sort, which partitions the array and then recurses over the two halves to sort it.
+ */
 public class QuickSort implements Sorter {
-  
+ /* CODE IS NOT WORKING AT THE MOMENT  
+
   public <T> int partition(T[] values, int lo, int hi, Comparator<? super T> order){
 
     //pick leftmost element for the pivot
@@ -26,6 +31,9 @@ public class QuickSort implements Sorter {
     return i + 1;
   }
 
+  /**
+   * Takes in an array and a comparator. Sorts the array. Returns nothing.
+   
   public <T> void sortHelper(T[] values, int lo, int hi, Comparator<? super T> order){
     if (lo < hi){
       int helperPivot = partition(values, lo, hi, order);
@@ -43,5 +51,6 @@ public class QuickSort implements Sorter {
     BasicComparator<Integer> newComparator = new BasicComparator<Integer>();
     QuickSorter.sort(testArray, newComparator);
   }
+  */
 }
 

@@ -3,6 +3,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
+/**
+ * Author: Livia Stein Freitas.
+ * Implements tests for my sorting algorithms.
+ */
 public class SortTester {
 
   Integer[] sorted = {1, 2, 3, 4, 5};

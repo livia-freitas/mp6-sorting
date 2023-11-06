@@ -29,12 +29,15 @@ public class InsertionSort implements Sorter {
   }
 
   public static void main(String[] args) {
-    Integer[] testArray = {5, 3, 2, 1, 4};
+    Integer[] testArray = {1};
     InsertionSort InsertionSorter = new InsertionSort();
     BasicComparator<Integer> newComparator = new BasicComparator<Integer>();
     InsertionSorter.sort(testArray, newComparator);
+    System.out.println(testArray[0]);
+    /* 
     for (int i = 0; i < 5; i++){
       System.out.println(testArray[i]);
     }
+    */
   }
 }

@@ -2,6 +2,10 @@ package mp6;
 import java.util.Comparator;
 import java.util.Arrays;
 
+/**
+ * Author: Livia Stein Freitas.
+ * Implements merge sort.
+ */
 public class MergeSort implements Sorter {
   
   public <T> void sort(T[] values, Comparator<? super T> order){
@@ -11,8 +15,8 @@ public class MergeSort implements Sorter {
       T[] upperHalf = Arrays.copyOfRange(values, mid, values.length);
       
 
-      sort(upperHalf, order);
-      sort(lowerHalf, order);
+      this.sort(upperHalf, order);
+      this.sort(lowerHalf, order);
 
       int i = 0;
       int j = 0;

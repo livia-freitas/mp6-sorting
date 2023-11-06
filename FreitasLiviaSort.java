@@ -1,6 +1,9 @@
 package mp6;
 import java.util.Comparator;
 
+/** Author: Livia Stein Freitas.
+ * Implements selectSort
+ */
 public class FreitasLiviaSort implements Sorter {
   
   public <T> void sort(T[] values, Comparator<? super T> order){

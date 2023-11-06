@@ -30,6 +30,8 @@ public class SortTester {
     assertTrue(Arrays.equals(testArray1, sorted));
     MergeSorter.sort(testArray2, newComparator);
     assertTrue(Arrays.equals(testArray2, sorted));
+    FreitasLiviaSorter.sort(testArray3, newComparator);
+    assertTrue(Arrays.equals(testArray3, sorted));
     //add tests for the other sorts
   }
   /**
@@ -98,7 +100,9 @@ public class SortTester {
    */
   @Test
   public void zeroTest(){
-    
+    Integer[] zeroTest = {0, 1, 2};
+    MergeSorter.sort(zeroArray, newComparator);
+    assertTrue(Arrays.equals(zeroArray, zeroTest));
   }
 
   public void main(String args[]) throws Exception{

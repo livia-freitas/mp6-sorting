@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 /**
  * Author: Livia Stein Freitas.
- * Implements tests for my sorting algorithms.
+ * Implements tests for my sorting algorithms using the junit library.
  */
 public class SortTester {
 
@@ -28,6 +28,9 @@ public class SortTester {
 
   BasicComparator<Integer> newComparator = new BasicComparator<Integer>();
 
+  /**
+   * Checks if a basic unsorted array is sorted correctly.
+   */
   @Test
   public void unsortedTest(){
     InsertionSorter.sort(testArray1, newComparator);

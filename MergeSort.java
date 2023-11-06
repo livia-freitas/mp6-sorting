@@ -4,10 +4,13 @@ import java.util.Arrays;
 
 /**
  * Author: Livia Stein Freitas.
- * Implements merge sort.
+ * Implements merge sort, a recursive algorithm that sorts by divide and conquer.
  */
 public class MergeSort implements Sorter {
   
+  /**
+   * Takes in an array and a comparator. Sorts the array. Returns nothing.
+   */
   public <T> void sort(T[] values, Comparator<? super T> order){
     if(values.length > 1){
       int mid = values.length/2;

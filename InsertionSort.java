@@ -3,7 +3,7 @@ import java.util.Comparator;
 
 /**
  * Author: Livia Stein Freitas.
- * Implements InsertionSort.
+ * Implements insertion sort, which builds the final sorted list one element at a time.
  */
 public class InsertionSort implements Sorter {
   

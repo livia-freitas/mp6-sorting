@@ -19,7 +19,7 @@ public class InsertionSort implements Sorter {
       for (int i = 1; i < size; i++){
         T current = values[i];
         int j = i - 1;
-        while (j >= 0 && (order.compare(current, values[j]) == 1)){
+        while (j >= 0 && (order.compare(current, values[j]) > 0)){
           values[j+1] = values[j]; 
           j --;
           values[j+1] = current;  

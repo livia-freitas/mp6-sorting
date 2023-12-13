@@ -26,7 +26,7 @@ public class MergeSort implements Sorter {
       int k = 0;
 
       while ((i < lowerHalf.length) && (j < upperHalf.length)){
-        if (order.compare(lowerHalf[i], upperHalf[j]) == 1){
+        if (order.compare(lowerHalf[i], upperHalf[j]) > 0){
           values[k] = lowerHalf[i];
           i++;
         } else {
